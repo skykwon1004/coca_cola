@@ -638,9 +638,9 @@
 }
 
 #f_link {
-    border: none;
     outline: none;
     padding: 5px 20px;
     background: #4a4a4a;
     border: 1px solid #696969;
+    cursor: pointer;
 }
