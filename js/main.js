@@ -110,5 +110,24 @@ $(function () {
 
 
 
+     // to top button
+    $(window).on('scroll', function () {
+        var sct = $(window).scrollTop();
+        console.log(sct);
+
+        if (sct > 500) {
+            //$('.toTop').fadeIn();
+            $('.to_top').addClass('on')
+        } else {
+            $('.to_top').removeClass('on')
+        }
+    });
+
+    $('.to_top').on('click', function () {
+        $('html, body').animate({ scrollTop: 0 })
+    });
+
+
+
     AOS.init();
 })
