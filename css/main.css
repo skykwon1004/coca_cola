@@ -383,7 +383,7 @@
 
 .main_noti_arrows i {
     font-size: 15px;
-    border: 1px solid #ddd;
+    background: #ddd;
     padding: 3px;
     cursor: pointer;
 }
