@@ -54,6 +54,7 @@
 .header_width.on {
     line-height: 80px;
     background: #fff;
+    border-bottom: 1px solid #ddd;
     transition: 0.5s;
 }
 
