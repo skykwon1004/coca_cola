@@ -127,7 +127,18 @@ $(function () {
         $('html, body').animate({ scrollTop: 0 })
     });
 
+    $('#f_link select').on('change', function () {
+        //console.log('change : ', $(this), $(this).val());
+        // change은 인풋에 뭔가를 쳤을때 또는 뭐가 바뀌면
+        var lnk = $(this).val();
 
+        // value 값이 있으면 새창 띄워...
+        if (lnk) {
+            window.open(lnk);
+        }
 
-    AOS.init();
+        // lnk && window.open(lnk); 이렇게도 줄여서 쓸수있음
+
+    });
+
 })

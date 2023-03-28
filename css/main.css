@@ -528,7 +528,6 @@
 .main_event .main_more a {
     display: inline-block;
     padding: 17px 50px 17px 50px;
-    /* border: 1px solid #fff; */
     background: #f40000;
     border-radius: 30px;
 
@@ -630,13 +629,15 @@
     font-weight: 100;
 }
 
-#f_link {
+.f_link {
+    font-size: 14px;
+    border: none;
     outline: none;
-    padding: 5px 20px;
+    padding: 5px 10px;
     background: #4a4a4a;
     border: 1px solid #696969;
-    cursor: pointer;
 }
+
 
 
 
